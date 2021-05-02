@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Корзина</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+	<div class="wrapper">
+		<!-- Header -->
+		<header class="header">
+			<div class="container">
+				<div class="header__body">
+					<div class="flex-row">
+						<div class="header__choice">
+							<div class="header__language">
+								<span>Ru</span>
+							</div>
+							<div class="header__burger">
+								<span></span>
+							</div>
+						</div>
+						<div class="header__logo">
+							<a href="#"><img src="img/logo.png" alt="logo"></a>
+						</div>
+						<div class="header__logo_adaptive">
+							<a href="#"><img src="img/adaptive-logo.png" alt="logo"></a>
+						</div>
+					</div>	
+					<div class="flex-row header__flex__btns">
+						<div class="header__location">
+							<button>Локация</button>
+						</div>
+						<nav class="header__menu">
+							<ul class="header__list">
+								<li><a href="#" class="header__link">Главная</a></li>
+								<li><a href="#" class="header__link">Каталог</a></li>
+								<li><a href="#" class="header__link">О компании</a></li>
+								<li><a href="#" class="header__link">Контакты</a></li>
+							</ul>
+						</nav>
+						<ul class="header__buttons">
+							<li><button class="header__button adress__btn">Адреса</button></li>
+							<li><button class="header__button">Корзина</button></li>
+							<li><button class="header__button">Войти</button></li>
+						</ul>
+						<ul class="header__buttons_adaptive">
+							<li>
+								<button class="basket__btn">
+								</button>
+							</li>
+							<li>
+								<button class="user__btn">
+								</button>
+							</li>
+						</ul>
+					</div>	
+				</div>
+			</div>
+		</header>
+		<!-- Header -->
+
+		<main class="main">
+			<div class="content-page basket">
+				<div class="container">
+					<aside class="aside">
+						<div class="aside__body">
+							<div class="aside__close">
+								<span></span>
+								<span></span>
+							</div>
+							<ul class="aside__list">
+								<li class="aside__list-item"><a href="#">Одежда / Обувь</a></li>
+								<li class="aside__list-item"><a href="#">Животным</a></li>
+								<li class="aside__list-item"><a href="#">Дом / Уют</a></li>
+								<li class="aside__list-item"><a href="#">Здоровье / Уход</a></li>
+								<li class="aside__list-item"><a href="#">Техника / Электроника</a></li>
+								<li class="aside__list-item"><a href="#">Авто / Мото</a></li>
+								<li class="aside__list-item"><a href="#">Сад / Огород</a></li>
+								<li class="aside__list-item"><a href="#">Хобби / Отдых</a></li>
+								<li class="aside__list-item"><a href="#">Строительство</a></li>
+							</ul>
+							<ul class="header__list">
+								<li><a href="#" class="header__link">Главная</a></li>
+								<li><a href="#" class="header__link">Каталог</a></li>
+								<li><a href="#" class="header__link">О компании</a></li>
+								<li><a href="#" class="header__link">Контакты</a></li>
+							</ul>
+						</div>
+					</aside>
+					<div class="content__navigation">
+						<ul>
+							<li><a class="first" href="#">Главная</a></li>
+							<li><a href="#" class="content__navigation_active">Корзина</a></li>
+						</ul>
+					</div>
+					<div class="content-page__search search-content default">
+						<div class="search-content__inner">
+							<input class="search-content__input default" type="search" placeholder="Поиск по сайту...">
+							<div class="search-content__photo">
+								<button>
+									<img src="img/photo.svg" alt="Фото">
+								</button>
+							</div>
+							<div class="search-content__icon">
+								<button>
+									<img src="img/icons/search-white.svg" alt="Search">
+								</button>
+							</div>
+							<div class="adaptive__category">
+								<button>
+								</button>
+							</div>
+							<div class="adaptive__filter">
+								<button>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="basket__title">
+						<h2>Корзина</h2>
+					</div>
+					<div class="basket__settings">
+						<div class="checkbox">
+							<input class="checkbox__input" type="checkbox" id="checkbox_1">
+							<label for="checkbox_1" class="checkbox__label">Выбрать всё</label>
+						</div>
+						<button class="basket__delete">Удалить выбранные</button>
+					</div>
+					<div class="basket__items__wrapper">
+						<div class="basket__products">
+							<div class="basket__item__box">
+								<div class="basket__item">
+									<div class="basket__img">
+										<img src="img/agenda.png" alt="">
+									</div>
+									<div class="basket__descr">
+										<div class="basket__head">
+											<div class="basket__head__title">
+												<h2>Agenda. женский летний сарафан</h2>
+												<ul>
+													<li>Склад отгрузки : склад продавца</li>
+													<li>Цвет: коричневый, коричнево серый, бежевый</li>
+												</ul>
+											</div>	
+											<div class="basket__value__wrapper">
+												<div class="basket__value">
+													<button class="basket__value__btn">-</button>
+													<span>300</span>
+													<button class="basket__value__btn">+</button>
+												</div>
+												<div class="basket__total">
+													<p class="basket__total__value">1650000 ₽</p>
+													<p>1 шт: 5500 ₽</p>
+												</div>
+											</div>	
+										</div>	
+										<div class="basket__info__box">
+											<div class="basket__info">
+												<span>Информация</span>
+												<span class="pink">“ООО WOMENS JOYS”</span>
+											</div>
+											<ul class="basket__info__list">
+												<li>Артикул: 12918341</li>
+												<li>Размер: L</li>
+												<li>Габариты в см: 119 см</li>
+												<li>Вес в кг: 0.5</li>
+												<li>На палете: 300 шт</li>
+												<li>Вес палета: 150 кг</li>
+											</ul>
+											<div class="basket__btn__list">
+												<button class="basket__detailed__btn">Подробнее</button>
+												<button class="basket__favorites__btn">В избранном</button>
+												<button class="basket__delete__btn">Удалить</button>
+											</div>
+										</div>	
+									</div>
+								</div>
+							</div>	
+							<div class="checkbox__wrapper">
+								<div class="checkbox">
+									<input class="checkbox__input" type="checkbox" id="checkbox_2">
+									<label for="checkbox_2" class="checkbox__label"></label>
+								</div>
+							</div>	
+							<div class="basket__item__box">
+								<div class="basket__item">
+									<div class="basket__img">
+										<img src="img/blender.png" alt="">
+									</div>
+									<div class="basket__descr">
+										<div class="basket__head">
+											<div class="basket__head__title">
+												<h2>Блендер Philips HR 3752/00 стационарный</h2>
+												<ul>
+													<li>Склад отгрузки : склад продавца</li>
+													<li>Цвет: серебристый металлик/черный</li>
+												</ul>
+											</div>	
+											<div class="basket__value__wrapper">
+												<div class="basket__value">
+													<button class="basket__value__btn">-</button>
+													<span>100</span>
+													<button class="basket__value__btn">+</button>
+												</div>
+												<div class="basket__total">
+													<p class="basket__total__value">390000 ₽</p>
+													<p>1 шт: 3900 ₽</p>
+												</div>
+											</div>	
+										</div>	
+										<div class="basket__info__box">
+											<div class="basket__info">
+												<span>Информация</span>
+												<span class="pink">“ООО Philips”</span>
+											</div>
+											<ul class="basket__info__list">
+												<li>Артикул: 14939345</li>
+												<li>Габариты в см: 10.8x33.4x10.8 см</li>
+												<li>Вес в кг: 1.14 кг</li>
+												<li>На палете: 100 шт</li>
+												<li>Вес палета: 114 кг</li>
+											</ul>
+											<div class="basket__btn__list">
+												<button class="basket__detailed__btn">Подробнее</button>
+												<button class="basket__favorites__btn">В избранном</button>
+												<button class="basket__delete__btn">Удалить</button>
+											</div>
+										</div>	
+									</div>
+								</div>
+							</div>	
+							<div class="checkbox__wrapper">
+								<div class="checkbox">
+									<input class="checkbox__input" type="checkbox" id="checkbox_3">
+									<label for="checkbox_3" class="checkbox__label"></label>
+								</div>
+							</div>
+							<div class="adaptive__place-order">
+								<a href="#" class="adaptive__place-order__link">Перейти к оформлению</a>
+							</div>
+							<div class="basket__adaptive__wrapper">
+								<div class="basket__delivery">
+									<h2>Доставка</h2>
+									<form class="delivery__form">
+										<div class="flex-row">
+											<span>Откуда</span>
+											<input type="text" name="delivery-city" placeholder="Москва" class="small__input">
+										</div>
+										<div class="flex-row">
+											<span>Адрес</span>
+											<input type="text" name="adress-to">
+										</div>
+										<div class="flex-row">
+											<span>Куда</span>
+											<input type="text" name="delivery-city" placeholder="Ростов-на-Дону" class="small__input">
+										</div>
+										<div class="flex-row">
+											<span>Адрес</span>
+											<input type="text" name="adress-from">
+										</div>
+									</form>
+								</div>
+								<div class="basket__methods">
+									<div class="delivery__method">
+										<h2>Способ доставки</h2>
+										<div class="flex-row">
+											<button class="basket__methods__btn active">Транспортная компания</button>
+											<button class="basket__methods__btn">Доставка курьером</button>
+											<button class="basket__methods__btn">Самовывоз</button>
+										</div>
+									</div>
+									<div class="payment__method">
+										<h2>Способ оплаты</h2>
+										<div class="flex-row">
+											<button class="basket__methods__btn active">Картой</button>
+											<button class="basket__methods__btn">Оплата по QR коду</button>
+											<button class="basket__methods__btn">Оплата с расчетного счета</button>
+										</div>
+										<div class="payments__buttons">
+											<button>Привязать карту</button>
+											<button>Привязать новую карту</button>
+										</div>
+									</div>
+								</div>	
+								<div class="recipient">
+									<div class="recipient__title">
+										<h2>Получатель</h2>
+										<a href="#">Редактировать данные</a>
+									</div>
+									<form class="recipient__form">
+										<input type="text" name="name" placeholder="Имя">
+										<input type="text" name="name" placeholder="Фамилия">
+										<input type="text" name="name" placeholder="Телефон">
+										<input type="text" name="name" placeholder="Email">
+									</form>
+								</div>
+							</div>
+						</div>	
+						<aside class="basket__aside">
+							<div class="basket__aside__title first">
+								<h2>Поставка</h2>
+							</div>
+							<div class="basket__aside__text">
+								<div class="flex-row">
+									<span>Поставщик</span>
+									<span class="pink">ООО "Womens joys"</span>
+								</div>
+								<div class="flex-row">
+									<span>Поставщик</span>
+									<span class="pink">ООО "Philips"</span>
+								</div>
+								<div class="flex-row">
+									<span>Сектор</span>
+									<span class="pink">В&B</span>
+								</div>
+								<div class="flex-row">
+									<span>Вид поставки</span>
+									<span class="pink">Оптом</span>
+								</div>
+							</div>
+							<div class="basket__aside__title">
+								<h2>Доставка</h2>
+							</div>
+							<div class="basket__aside__text">
+								<div class="flex-row">
+									<span>Трансп. компания</span>
+									<span class="pink">СДЭК</span>
+								</div>
+								<div class="flex-row">
+									<span>Срок доставки</span>
+									<span class="pink">8-10 мая</span>
+								</div>
+							</div>
+							<div class="basket__aside__title">
+								<h2>Оплата</h2>
+							</div>
+							<div class="basket__aside__text">
+								<div class="flex-row">
+									<span>Расчетный счет</span>
+									<span class="pink"><button>изменить</button></span>
+								</div>
+							</div>
+							<div class="basket__aside__title">
+								<h2>Ваш заказ</h2>
+							</div>
+							<div class="basket__aside__text">
+								<div class="flex-row">
+									<span>Товары, 300 шт</span>
+									<span class="pink">1 650 000 ₽</span>
+								</div>
+								<div class="flex-row">
+									<span>Товары, 100 шт</span>
+									<span class="pink">390 000 ₽</span>
+								</div>
+								<div class="flex-row">
+									<span>Скидка</span>
+									<span class="pink">0 ₽</span>
+								</div>
+								<div class="flex-row">
+									<span>Доставка</span>
+									<span class="pink">9700 ₽</span>
+								</div>
+								<div class="flex-row">
+									<span>Тариф Ультима</span>
+									<span class="pink">0 ₽</span>
+								</div>
+							</div>
+							<div class="basket__aside__total">
+								<div class="flex-row">
+									<span class="aside__total__title">Итого</span>
+									<span class="aside__total__value">2 030 300 ₽</span>
+								</div>
+							</div>
+							<div class="basket__aside__btn-wrap">
+								<button class="basket__aside__btn">Оформить заказ</button>
+							</div>
+							<div class="aside__conditions">
+								<div class="checkbox">
+									<input class="checkbox__input" type="checkbox" id="checkbox_4">
+									<label for="checkbox_4" class="checkbox__label">Нажимая  «На кнопку» вы принимаете <a href="#" class="pink">Условия обработки перс. данных,</a> а также с <a href="#" class="pink">Условиями продажи</a></label>
+								</div>
+							</div>
+						</aside>
+					</div>
+				</div>	
+			</div>
+			<div class="vidget">
+				<button class="vidget__button">
+					Напишите нам, мы в онлайне 
+				</button>
+			</div>
+			<div class="vidget__popup">
+				<div class="vidget__popup-head">
+					<div class="vidget__popup-text">
+						<p>Напишите нам, мы в онлайне </p>
+						<p>Операторы онлайн !</p>
+					</div>
+				</div>
+				<div class="vidget__popup-body">
+					<div class="vidget__popup-messages">
+						<div class="vidget__popup-message vidget__popup-message_1">
+							<p>Сообщения сразу из всех соцсетей и мессенджеров можно получать в живом онлайн чате прямо на сайте.</p>
+						</div>
+						<div class="vidget__popup-message vidget__popup-message_2">
+							<p>Я вас понял, спасибо !</p>
+						</div>
+					</div>
+					<div class="vidget__popup-textarea">
+						<textarea class="popup__textarea" placeholder="Введите сообщение"></textarea>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__body">
+					<div class="footer__inner">
+						<div class="footer__logo">
+							<a href="#"><img src="img/logo.png" alt="Логотип"></a>
+						</div>
+						<nav class="footer__menu">
+							<ul class="footer__list">
+								<li><a href="#" class="footer__link">Главная</a></li>
+								<li><a href="#" class="footer__link">Каталог</a></li>
+								<li><a href="#" class="footer__link">О компании</a></li>
+								<li><a href="#" class="footer__link">Контакты</a></li>
+							</ul>
+						</nav>
+						<div class="footer__contacts">
+							<a href="tel:79670919990">+7 (967) 091-99-90</a>
+							<a href="mailto:Info@ogo.market">Info@ogo.market</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Footer -->
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
